@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RazorPay - Payment Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style></style>
+        
+</head>
+<body>
+    <div class="scroll-progress"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-light nav-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand brand" href="#">
+                <i class="fas fa-bolt me-2"></i>RazorPay
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link fw-medium" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="#solutions">Solutions</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="#developers">Developers</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="#pricing">Pricing</a></li>
+                </ul>
+                <div class="d-flex gap-2 nav-buttons">
+                    <a href="#" class="btn btn-outline-primary">Login</a>
+                    <a href="#" class="btn btn-primary">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 order-2 order-lg-1">
+                    <h1 class="hero-title">Modern Payments for <span class="text-gradient">Growing Businesses</span></h1>
+                    <p class="lead mb-4 hero-subtitle">Accept payments, send payouts, and manage finances with our complete payment platform.</p>
+                    <div class="d-flex gap-3 mb-5 flex-column flex-sm-row hero-buttons">
+                        <button class="btn btn-primary btn-lg">Get Started</button>
+                        <button class="btn btn-outline-primary btn-lg">Contact Sales</button>
+                    </div>
+                    <div class="d-flex gap-4 gap-md-5 stats-container">
+                        <div class="text-center">
+                            <div class="stat-counter" data-target="50">0</div>
+                            <small class="text-muted">K+ Businesses</small>
+                        </div>
+                        <div class="text-center">
+                            <div class="stat-counter" data-target="20">0</div>
+                            <small class="text-muted">B+ Processed</small>
+                        </div>
+                        <div class="text-center">
+                            <div class="stat-counter" data-target="99.9">0</div>
+                            <small class="text-muted">% Uptime</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
+                    <div class="dashboard-preview p-3 p-md-4">
+                        <div class="d-flex gap-2 mb-3">
+                            <span class="bg-danger rounded-circle" style="width: 12px; height: 12px;"></span>
+                            <span class="bg-warning rounded-circle" style="width: 12px; height: 12px;"></span>
+                            <span class="bg-success rounded-circle" style="width: 12px; height: 12px;"></span>
+                        </div>
+                        <div class="row g-3 mb-4">
+                            <div class="col-6 col-sm-6">
+                                <div class="p-3 border rounded">
+                                    <i class="fas fa-chart-line text-primary mb-2"></i>
+                                    <h5 class="mb-1">$12,458</h5>
+                                    <small class="text-muted">Today's Revenue</small>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6">
+                                <div class="p-3 border rounded">
+                                    <i class="fas fa-shopping-cart text-primary mb-2"></i>
+                                    <h5 class="mb-1">324</h5>
+                                    <small class="text-muted">Transactions</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-light rounded" style="height: 200px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="py-5 bg-white">
+        <div class="container py-4 py-lg-5">
+            <div class="text-center mb-4 mb-lg-5">
+                <span class="badge bg-primary mb-3">Why Choose Us</span>
+                <h2 class="mb-3">Built for Modern Business</h2>
+                <p class="text-muted mx-auto" style="max-width: 600px;">Powerful features to help your business grow and succeed in the digital age</p>
+            </div>
+            <div class="row g-3 g-md-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon mx-auto">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h5>Secure & Reliable</h5>
+                        <p class="text-muted mb-0">Bank-grade security with 99.9% uptime and PCI DSS Level 1 certification</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon mx-auto">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h5>Lightning Fast</h5>
+                        <p class="text-muted mb-0">Process payments in milliseconds with our optimized infrastructure</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature-card text-center">
+                        <div class="feature-icon mx-auto">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h5>Easy Integration</h5>
+                        <p class="text-muted mb-0">Simple APIs and detailed documentation for all major platforms</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solutions" class="py-5 bg-light">
+        <div class="container py-4 py-lg-5">
+            <div class="text-center mb-4 mb-lg-5">
+                <span class="badge bg-primary mb-3">Our Solutions</span>
+                <h2 class="mb-3">Complete Payment Platform</h2>
+                <p class="text-muted mx-auto" style="max-width: 600px;">Everything you need to accept payments and manage your business finances</p>
+            </div>
+            
+            <ul class="nav nav-pills solution-tabs justify-content-center mb-4 mb-lg-5 flex-nowrap overflow-auto pb-2">
+                <li class="nav-item flex-shrink-0">
+                    <button class="nav-link active" data-bs-target="#payments">Payments</button>
+                </li>
+                <li class="nav-item flex-shrink-0">
+                    <button class="nav-link" data-bs-target="#banking">Banking</button>
+                </li>
+                <li class="nav-item flex-shrink-0">
+                    <button class="nav-link" data-bs-target="#payouts">Payouts</button>
+                </li>
+                <li class="nav-item flex-shrink-0">
+                    <button class="nav-link" data-bs-target="#invoicing">Invoicing</button>
+                </li>
+            </ul>
+            
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="payments">
+                    <div class="row g-3 g-md-4">
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="feature-card text-center">
+                                <div class="feature-icon mx-auto">
+                                    <i class="fas fa-credit-card"></i>
+                                </div>
+                                <h6>Payment Pages</h6>
+                                <small class="text-muted">Ready-to-use payment pages with no coding</small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="feature-card text-center">
+                                <div class="feature-icon mx-auto">
+                                    <i class="fas fa-link"></i>
+                                </div>
+                                <h6>Payment Links</h6>
+                                <small class="text-muted">Create and share payment links instantly</small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="feature-card text-center">
+                                <div class="feature-icon mx-auto">
+                                    <i class="fas fa-qrcode"></i>
+                                </div>
+                                <h6>QR Codes</h6>
+                                <small class="text-muted">Dynamic QR codes for easy payments</small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <div class="feature-card text-center">
+                                <div class="feature-icon mx-auto">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <h6>UPI Payments</h6>
+                                <small class="text-muted">Seamless UPI payment integration</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-white">
+        <div class="container py-4 py-lg-5">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="mb-3">See How It Works</h2>
+                    <p class="text-muted mb-4">Experience our payment flow with this interactive demo</p>
+                    
+                    <div class="demo-steps">
+                        <div class="d-flex align-items-center mb-3 p-3 border rounded bg-light">
+                            <span class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0" style="width: 40px; height: 40px;">1</span>
+                            <div>
+                                <h6 class="mb-1">Select Payment Method</h6>
+                                <small class="text-muted">Choose from multiple payment options</small>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3 p-3 border rounded">
+                            <span class="bg-secondary text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0" style="width: 40px; height: 40px;">2</span>
+                            <div>
+                                <h6 class="mb-1">Enter Details</h6>
+                                <small class="text-muted">Secure payment information entry</small>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center p-3 border rounded">
+                            <span class="bg-secondary text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0" style="width: 40px; height: 40px;">3</span>
+                            <div>
+                                <h6 class="mb-1">Complete Payment</h6>
+                                <small class="text-muted">Instant confirmation and processing</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="demo-container">
+                        <div class="payment-demo bg-white rounded shadow-sm">
+                            <div class="p-3 p-md-4 border-bottom">
+                                <h5 class="mb-0">Complete Your Payment</h5>
+                            </div>
+                            <div class="p-3 p-md-4">
+                                <div class="row g-2 g-sm-3 mb-4">
+                                    <div class="col-4">
+                                        <div class="payment-method active text-center" data-method="card">
+                                            <i class="fas fa-credit-card mb-2 d-block"></i>
+                                            <small>Credit Card</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="payment-method text-center" data-method="upi">
+                                            <i class="fas fa-mobile-alt mb-2 d-block"></i>
+                                            <small>UPI</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="payment-method text-center" data-method="netbanking">
+                                            <i class="fas fa-university mb-2 d-block"></i>
+                                            <small>Net Banking</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="payment-form active" id="card-form">
+                                    <div class="mb-3">
+                                        <label class="form-label">Card Number</label>
+                                        <input type="text" class="form-control" placeholder="1234 5678 9012 3456">
+                                    </div>
+                                    <div class="row g-3">
+                                        <div class="col-12 col-sm-6">
+                                            <label class="form-label">Expiry Date</label>
+                                            <input type="text" class="form-control" placeholder="MM/YY">
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <label class="form-label">CVV</label>
+                                            <input type="text" class="form-control" placeholder="123">
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary w-100 mt-4 pay-now-btn">Pay Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section py-5">
+        <div class="container py-4 py-lg-5 text-center">
+            <h2 class="mb-3">Ready to Get Started?</h2>
+            <p class="mb-4 opacity-75 mx-auto" style="max-width: 600px;">Join thousands of businesses using RazorPay to accept payments, manage finances, and grow their business</p>
+            <div class="d-flex gap-3 justify-content-center flex-column flex-sm-row">
+                <button class="btn btn-light btn-lg">Start Free Trial</button>
+                <button class="btn btn-outline-light btn-lg">Schedule Demo</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4 mb-4">
+                    <div class="brand text-white mb-3">
+                        <i class="fas fa-bolt me-2"></i>RazorPay
+                    </div>
+                    <p class="text-light opacity-75 mb-4">Modern payment solutions for growing businesses</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-light opacity-75"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-light opacity-75"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-light opacity-75"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 mb-4">
+                    <h6 class="text-white mb-3">Products</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Payment Gateway</a></li>
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Business Banking</a></li>
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Capital</a></li>
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Payouts</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 mb-4">
+                    <h6 class="text-white mb-3">Resources</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Documentation</a></li>
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Blog</a></li>
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Guides</a></li>
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 mb-4">
+                    <h6 class="text-white mb-3">Company</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">About</a></li>
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Careers</a></li>
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Partners</a></li>
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 mb-4">
+                    <h6 class="text-white mb-3">Legal</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Privacy</a></li>
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Terms</a></li>
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Security</a></li>
+                        <li class="mb-2"><a href="#" class="text-light opacity-75 text-decoration-none">Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-top pt-4 mt-4 text-center">
+                <p class="text-light opacity-75 mb-0">&copy; 2024 RazorPay. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
